@@ -1,3 +1,5 @@
+package ch2;
+
 public class Apple {
 	private Integer weight = 0;
 	private Color color;
@@ -25,6 +27,6 @@ public class Apple {
 
 	@Override
 	public String toString() {
-		return String.format("Apple{color=%s, weight=%d}", color, weight);
+		return String.format("ch2.Apple{color=%s, weight=%d}", color, weight);
 	}
 }
